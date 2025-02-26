@@ -1,0 +1,228 @@
+body{
+    background-color: rgb(248, 232, 217);
+    position: relative;
+}
+
+.Header-nav{
+    width: 98%;
+    margin: 1%;
+    position: relative;
+}
+.Header-title{
+    width: 14%;
+    display: inline-block;
+}
+.Header-search{
+    width: 18%;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px;
+    margin-left: 45%;
+}
+.Header-Filter{
+    width: 5%;
+    /* float: right; */
+    position: absolute;
+    display: inline-block;
+}
+.Header-Customer{
+    width: 16%;
+    padding: 10px;
+    border: 1px solid rgba(21, 129, 172, 0.959);
+    background-color: rgba(21, 129, 172, 0.959);
+    border-radius: 7px;
+    color: white;
+    display: inline-block;
+    margin-left: 5%;
+}
+input[type=num]{
+    width: 18%;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px;
+    margin-left: 45.4%;
+}
+.Footer{
+    width: 100%;
+}
+.Footer-LoadMore{
+    width: 7%;
+    padding: 10px;
+    border:1px solid rgba(21, 129, 172, 0.959);
+    color: rgba(21, 129, 172, 0.959);
+    margin-left: 50%;
+    border-radius: 4px;
+    margin-top: 2%;
+}
+table,th,tr{
+    border-bottom : 1px solid rgb(112, 108, 108);
+    border-collapse: collapse;
+}
+
+.table-style {
+    margin: 1%;
+    width: 98%;
+    border: 1px;
+    border-radius: 3px;
+    padding-top: 13px;
+    border-collapse: collapse;
+    background-color: white;
+}
+.arrow{
+    position: absolute;
+    display: inline-block;
+    width: 16%;
+
+}
+
+th#CustomerID {
+    width: 7%;
+    padding: 4px 0px 13px 0px;
+    text-align: left;
+
+}
+th#First_Name{
+    width: 10%;
+    padding: 4px 0px 13px 0px;
+    text-align: left;
+    position: relative;
+    
+    
+}
+th#Last_Name{
+    width: 10%;
+    padding: 4px 0px 13px 0px;
+    text-align: left;
+}
+th#Email_Address{
+    width: 14.5%;
+    padding: 4px 0px 13px 0px;
+    text-align: left;
+    position: relative;
+}
+th#Membership{
+    width: 10.5%;
+    padding: 4px 0px 13px 0px;
+    text-align: left;
+}
+th#Location{
+    width: 9.5%;
+    padding: 4px 0px 13px 0px;
+    text-align: left;
+}
+th#Status{
+    width: 9.5%;
+    padding: 4px 0px 13px 0px;
+    text-align: center;
+}
+th#Action{
+    width: 10.5%;
+    padding: 4px 0px 13px 0px;
+    text-align: center;
+}
+.Inner-table{
+    margin: 1%;
+    width: 98%;
+}
+
+#Value_CustomerID {
+    width: 7%;
+    padding: 15px 8px 13px 0px;
+    
+}
+td#First_Name{
+    width: 10%;
+    padding: 15px 8px 13px 0px;
+}
+td#Last_Name{
+    width: 10%;
+    padding: 15px 8px 13px 0px;
+}
+td#Email_Address{
+    width: 14.5%;
+    padding: 15px 8px 13px 0px;
+}
+td#Membership{
+    width: 10.5%;
+    padding: 15px 8px 13px 0px;
+}
+td#Location{
+    width: 9.5%;
+    padding: 15px 8px 13px 0px;
+}
+td#Status{
+    width: 9.5%;
+    padding: 15px 8px 13px 0px;
+    text-align: center;
+}
+td#Action{
+    width: 10.5%;
+    padding: 15px 0px 13px 0px;
+    text-align: center;
+}
+.status1-btn{
+    width: 9.5%;
+    border: 1px ;
+    color: rgb(5, 82, 5);
+    font-weight: 500;
+    padding: 3px 21px 3px 21px;
+    border-radius: 12px;
+    background-color: rgb(120, 241, 120);
+}
+.status-btn{
+    width: 9.5%;
+    border: 1px ;
+    font-weight: 500;
+    color: rgb(32, 32, 32);
+    padding: 3px 16px 3px 16px;
+    border-radius: 12px;
+    background-color: rgb(205, 214, 205);
+}
+.FilterStyle{
+    width: 40%;
+    margin-left: 54%;
+    margin-top: 4.5%;
+    border-radius: 15px;
+    background-color: rgb(81, 90, 90);
+}
+
+.Modal-Style{
+    width: 50%;
+    margin: 10%;
+    position: absolute ;
+
+}
+.modelrow{
+    width: 100%;
+    
+    
+    
+}
+.lab{
+    color: #fdfcfc;
+    text-align: center;
+}
+.gen-btn{
+    color: aliceblue;
+}
+.btn-filter{
+    padding: 5px 2px;
+    border: 1px solid rgb(24, 28, 29);
+    background-color:rgb(248, 244, 244) ;
+    border-radius: 8px;
+    color: rgb(15, 15, 15);
+    width: 15%;
+    margin-left: 43%;
+    font-weight: bold;
+    margin-top: 3%;
+    padding: 1%;
+}
+.inputField1{
+    width: 55%;
+    margin-left: 20%;
+}
+.gender-radio{
+    margin-left: 30%;
+}
